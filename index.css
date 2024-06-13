@@ -10,6 +10,8 @@
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    
+    background: linear-gradient(225deg, rgba(255, 231, 220, 0.712) 40%,white, rgb(245, 223, 249) 50%);
 }
 .container {
     height: 100%;
@@ -50,7 +52,7 @@
 .card:hover {
   transform: scale(1.03);
   transition: 0.5s;
-  filter: drop-shadow(0 0 10px black);
+  filter: drop-shadow(0 0 10px rgb(118, 116, 116));
  
 }
 .card:hover img {
