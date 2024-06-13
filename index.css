@@ -8,12 +8,15 @@
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 .container {
     height: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 .container h1 {
@@ -73,4 +76,25 @@
 .card:hover figcaption{
     opacity: 1;
     transform:scale(1.03);
+}
+.buttonback{
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(75, 174, 244);
+    color:aliceblue;
+    box-shadow: 10p 10px gray;
+    border: 1px solid rgb(237, 234, 234);
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    
+
+}
+button{
+    text-decoration: none;
+    align-items: center;
+}
+button:hover{
+    cursor: pointer;
 }
